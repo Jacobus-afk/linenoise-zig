@@ -34,8 +34,8 @@
     .license = "BSD-2-Clause",
     .dependencies = .{
         .linenoise = .{
-            .url = "https://github.com/antirez/linenoise/archive/refs/tags/2.0.tar.gz",
-            .hash = "N-V-__8AAJ4HAgCX79UDBfNwhqAqUVoGC44ib6UYa18q6oa_",
+            .url = "git+https://github.com/Jacobus-afk/linenoise.git#c4b65d6f59f278df16fe3eb437c766c00d1a4126",
+            .hash = "N-V-__8AAAh6AgCAn1uFUGuD3_7n9Szhoe4s0pRt5lZHCWza",
         },
     },
     .paths = .{
