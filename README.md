@@ -17,5 +17,5 @@ const linenoise = b.dependency("linenoise", .{
     .optimize = optimize,
 });
 
-exe.linkLibrary(linenoise.artifact("linenoise"));
+exe.root_module.linkLibrary(linenoise.artifact("linenoise"));
 ```
