@@ -6,7 +6,7 @@
 ## Start
 
 ```console
-zig fetch --save git+https://github.com/Jacobus-afk/linenoise-zig.git
+zig fetch --save=linenoise git+https://github.com/Jacobus-afk/linenoise-zig.git
 ```
 
 You can then import linenoise in your `build.zig` with:
